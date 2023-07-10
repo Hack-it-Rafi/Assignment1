@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+}
+.btn-prime{
+    width: 177px;
+    height: 64px;
+    background-color: #E55473;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+/* Header */
+.header{
+    height: 635px;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.header-text{
+    margin-top: 147px;
+}
+.header-h1{
+    margin-bottom: 24px;
+    font-size: 60px;
+    font-weight: 800;
+}
+.header-p{
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 24px;
+}
+.header-img{
+    
+}
+.header-flower{
+    width: 475px;
+    margin-top: 37px;
+}
+
+/* Main */
+
+.window{
+    height: 695px;
+    padding-top: 133px;
+}
+.window-text{
+    text-align: center;
+    margin-bottom: 36px;
+}
+.window-h2{
+    margin-bottom: 18px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.window-p{
+    color: rgba(39, 39, 39, 0.60);
+}
+.windows{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+.window-flower{
+    width: 346px;
+    height: 402px;
+    margin-bottom: 24px;
+    background-color: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 200px 200px 0px 0px;
+
+}
+.window-flower2{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.window-flower3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.p-bottom{
+    text-align: center;
+    text-decoration: underline;
+}
+.flowerX{
+    width: 231px;
+    margin-top: 82px;
+}
+.flower2{
+    height: 231px;
+    margin-top: 100px;
+}
+
+/* Services */
+.services{
+    width: 75%;
+}
