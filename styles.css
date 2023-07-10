@@ -1,21 +1,25 @@
-*{
+* {
     margin: 0px;
+    font-family: 'Lato';
 }
-.btn-prime{
-    width: 177px;
-    height: 64px;
+
+.btn-prime {
+    width: 133px;
+    height: 48px;
     background-color: #E55473;
     border-radius: 8px;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     border: none;
 }
-.Lal{
+
+.Lal {
     color: #E55473;
 }
+
 /* Header */
-.header{
+.header {
     height: 635px;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -23,51 +27,59 @@
     gap: 75px;
     /* align-items: center; */
 }
-.header-text{
+
+.header-text {
     margin-top: 147px;
     /* margin-left: 110px; */
 }
-.header-h1{
+
+.header-h1 {
     margin-bottom: 24px;
     font-size: 60px;
     font-weight: 800;
 }
-.header-p{
+
+.header-p {
     color: rgba(39, 39, 39, 0.60);
     margin-bottom: 24px;
 }
-.header-img{
-    
-}
-.header-flower{
+
+.header-img {}
+
+.header-flower {
     width: 475px;
     margin-top: 37px;
 }
 
 /* Main */
 
-.window{
+.window {
     height: 695px;
     padding-top: 133px;
 }
-.window-text{
+
+.window-text {
     text-align: center;
     margin-bottom: 36px;
 }
-.window-h2{
+
+.window-h2 {
     margin-bottom: 18px;
     font-size: 30px;
     font-weight: 800;
 }
-.window-p{
+
+.window-p {
     color: rgba(39, 39, 39, 0.60);
 }
-.windows{
+
+.windows {
     display: flex;
     justify-content: center;
     gap: 17px;
 }
-.window-flower{
+
+.window-flower {
     width: 346px;
     height: 402px;
     margin-bottom: 24px;
@@ -78,32 +90,38 @@
     border-radius: 200px 200px 0px 0px;
 
 }
-.window-flower2{
+
+.window-flower2 {
     background-color: rgba(5, 151, 160, 0.15);
 }
-.window-flower3{
+
+.window-flower3 {
     background-color: rgba(71, 125, 17, 0.15);
 }
-.p-bottom{
+
+.p-bottom {
     text-align: center;
     text-decoration: underline;
 }
-.flowerX{
+
+.flowerX {
     width: 231px;
     margin-top: 82px;
 }
-.flower2{
+
+.flower2 {
     height: 231px;
     margin-top: 100px;
 }
 
 /* Services */
-.service-div{
+.service-div {
     display: flex;
     justify-content: center;
     margin-bottom: 96px;
 }
-.services{
+
+.services {
     width: 75%;
     height: 239px;
     background-color: rgba(39, 39, 39, 0.05);
@@ -112,17 +130,19 @@
     gap: 90px;
     align-items: center;
 }
-.service-icons{
+
+.service-icons {
     text-align: center;
 }
-.icon{
+
+.icon {
     height: 66px;
     width: 66px;
     margin-bottom: 18px;
 }
 
 /* Sale */
-.Sale{
+.Sale {
     height: 463px;
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -130,64 +150,75 @@
     justify-content: center;
     gap: 139px;
 }
-.Sale-text{
+
+.Sale-text {
     text-align: center;
 }
-.Sale-h1{
+
+.Sale-h1 {
     margin-bottom: 18px;
     font-size: 30px;
     font-weight: 800;
 }
-.Sale-p{
+
+.Sale-p {
     margin-bottom: 18px;
     text-align: center;
     font-size: 14px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.60);
 }
-.Sale-img{
+
+.Sale-img {
     width: 237px;
 }
 
 /* Instagram */
-.Instagram{
+.Instagram {
     margin-top: 96px;
     margin-bottom: 96px;
 }
-.Insta-images{
+
+.Insta-images {
     display: flex;
     justify-content: center;
     gap: 18px;
 }
-.Insta-image{
+
+.Insta-image {
     width: 255px;
     box-shadow: 5px 5px 5px gray;
 }
-.Insta-p{
+
+.Insta-p {
     margin-bottom: 36px;
 }
 
 /* Subscription */
-.Subs-div{
+.Subs-div {
     display: flex;
     justify-content: center;
     margin-bottom: 96px;
 }
-.subscription{
+
+.subscription {
     width: 75%;
     height: 336px;
     background-image: url('./Flower Asset/Rectangle 9.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
-.Subs-text{
+
+.Subs-text {
     margin-top: 91px;
 }
-.Subs-form{
+
+.Subs-form {
     display: flex;
     justify-content: center;
 }
-.Form-input{
+
+.Form-input {
     width: 523px;
     height: 24px;
     padding: 20px;
@@ -196,18 +227,23 @@
 }
 
 /* Footer */
-.footer-div{
+.footer-div {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 336px;
     background-color: #111010;
 }
-footer{
+
+footer {
     color: white;
     text-align: center;
     /* padding-top: 96px; */
 }
-.footer-p{
+
+.footer-p {
     color: white;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
 }
