@@ -16,11 +16,13 @@
     height: 635px;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 75px;
     /* align-items: center; */
 }
 .header-text{
     margin-top: 147px;
+    /* margin-left: 110px; */
 }
 .header-h1{
     margin-bottom: 24px;
@@ -93,6 +95,88 @@
 }
 
 /* Services */
+.service-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 96px;
+}
 .services{
     width: 75%;
+    height: 239px;
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+}
+.service-icons{
+    text-align: center;
+}
+.icon{
+    height: 66px;
+    width: 66px;
+    margin-bottom: 18px;
+}
+
+/* Sale */
+.Sale{
+    height: 463px;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 139px;
+}
+.Sale-text{
+    text-align: center;
+}
+.Sale-h1{
+    margin-bottom: 18px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.Sale-p{
+    margin-bottom: 18px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+}
+.Sale-img{
+    width: 237px;
+}
+
+/* Instagram */
+.Instagram{
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+.Insta-images{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+.Insta-image{
+    width: 255px;
+    box-shadow: 5px 5px 5px gray;
+}
+.Insta-p{
+    margin-bottom: 36px;
+}
+
+/* Subscription */
+.Subs-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+.subscription{
+    width: 75%;
+    height: 336px;
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Subs-text{
+    margin-top: 91px;
 }
