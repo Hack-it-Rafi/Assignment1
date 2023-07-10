@@ -11,6 +11,9 @@
     font-weight: 700;
     border: none;
 }
+.Lal{
+    color: #E55473;
+}
 /* Header */
 .header{
     height: 635px;
@@ -179,4 +182,32 @@
 }
 .Subs-text{
     margin-top: 91px;
+}
+.Subs-form{
+    display: flex;
+    justify-content: center;
+}
+.Form-input{
+    width: 523px;
+    height: 24px;
+    padding: 20px;
+    border: none;
+    margin-right: 12px;
+}
+
+/* Footer */
+.footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 336px;
+    background-color: #111010;
+}
+footer{
+    color: white;
+    text-align: center;
+    /* padding-top: 96px; */
+}
+.footer-p{
+    color: white;
 }
