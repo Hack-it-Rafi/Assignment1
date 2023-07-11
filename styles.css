@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     font-family: 'Lato';
+    width: 100%;
 }
 
 .btn-prime {
@@ -21,6 +22,7 @@
 /* Header */
 .header {
     height: 635px;
+    width: 100vw;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: center;
@@ -113,32 +115,17 @@
     height: 231px;
     margin-top: 100px;
 }
-
-/* Services */
-.service-div {
+/* Autumn */
+.Autumn{
+    height: 650px;
+    width: 100%;
+    background-image: url('./Flower Asset/IMG_20230711_132729.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    justify-content: center;
-    margin-bottom: 96px;
-}
-
-.services {
-    width: 75%;
-    height: 239px;
-    background-color: rgba(39, 39, 39, 0.05);
-    display: flex;
-    justify-content: center;
-    gap: 90px;
     align-items: center;
-}
-
-.service-icons {
-    text-align: center;
-}
-
-.icon {
-    height: 66px;
-    width: 66px;
-    margin-bottom: 18px;
+    justify-content: right;
+    padding-right: 50px;
 }
 
 /* Sale */
@@ -224,6 +211,33 @@
     padding: 20px;
     border: none;
     margin-right: 12px;
+}
+
+/* Services */
+.service-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.services {
+    width: 75%;
+    height: 239px;
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+}
+
+.service-icons {
+    text-align: center;
+}
+
+.icon {
+    height: 66px;
+    width: 66px;
+    margin-bottom: 18px;
 }
 
 /* Footer */
