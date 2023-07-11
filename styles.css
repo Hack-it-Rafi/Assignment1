@@ -106,6 +106,7 @@
 .p-bottom {
     text-align: center;
     text-decoration: underline;
+    color: black;
 }
 
 .flowerX {
@@ -139,6 +140,10 @@
     width: 200px;
     /* padding: auto; */
 }
+.Autumn-h2{
+    font-size: 40px;
+    font-weight: 800;
+}
 
 /* Gift */
 .Gift-container{
@@ -152,7 +157,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: -40px;
     margin-bottom: 97px;
     /* gap: 20px; */
@@ -169,12 +174,16 @@
     border: none;
     margin-right: 7px;
     border-radius: 3px;
+    padding-left: 5px;
+}
+.Select-input{
+    margin-right: 30px;
 }
 
 /* Sale */
 .Sale {
     height: 463px;
-    background-color: rgba(229, 84, 115, 0.155);
+    background-color: rgba(229, 84, 115, 0.122);
     display: flex;
     align-items: center;
     justify-content: center;
