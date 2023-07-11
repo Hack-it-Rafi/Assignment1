@@ -13,6 +13,7 @@
     font-size: 15px;
     font-weight: 700;
     border: none;
+    cursor: pointer;
 }
 
 .Lal {
@@ -117,16 +118,36 @@
     margin-top: 100px;
 }
 /* Autumn */
-.Autumn{
-    height: 650px;
+.Autumn-container{
+    height: 600px;
     width: 100%;
+}
+.Autumn{
+    height: 600px;
     background-image: url('./Flower Asset/IMG_20230711_132729.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: right;
-    padding-right: 50px;
+    padding-right: 100px;
+}
+.Autumn-btn{
+    margin-top: 27px;
+    background-color: white;
+    color: #E55473;
+    width: 200px;
+    /* padding: auto; */
+}
+
+/* Gift */
+.Gift-container{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+.Gift-Availability{
+    
 }
 
 /* Sale */
