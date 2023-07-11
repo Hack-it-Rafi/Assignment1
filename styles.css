@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     font-family: 'Lato';
-    width: 100%;
+    /* width: 100%; */
 }
 
 .btn-prime {
@@ -24,10 +24,11 @@
     height: 635px;
     width: 100vw;
     background-color: rgba(229, 84, 115, 0.10);
+    background-size: cover;
     display: flex;
     justify-content: center;
     gap: 75px;
-    /* align-items: center; */
+    align-items: center;
 }
 
 .header-text {
