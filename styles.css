@@ -23,7 +23,7 @@
 /* Header */
 .header {
     height: 635px;
-    width: 100vw;
+    width: 100%;
     background-color: rgba(229, 84, 115, 0.10);
     background-size: cover;
     display: flex;
@@ -52,7 +52,7 @@
 
 .header-flower {
     width: 475px;
-    margin-top: 37px;
+    margin-top: 38px;
 }
 
 /* Main */
@@ -142,18 +142,39 @@
 
 /* Gift */
 .Gift-container{
-    width: 75%;
     display: flex;
     justify-content: center;
 }
 .Gift-Availability{
-    
+    width: 75%;
+    height: 200px;
+    background-color: rgb(6, 170, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: -40px;
+    margin-bottom: 97px;
+    /* gap: 20px; */
+}
+.Gift-text{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.Gift-input{
+    width: 133px;
+    height: 48px;
+    border: none;
+    margin-right: 7px;
+    border-radius: 3px;
 }
 
 /* Sale */
 .Sale {
     height: 463px;
-    background-color: rgba(229, 84, 115, 0.05);
+    background-color: rgba(229, 84, 115, 0.155);
     display: flex;
     align-items: center;
     justify-content: center;
